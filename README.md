@@ -62,7 +62,7 @@ These files were generated from the raw dataset during preprocessing and feature
 - Monthly & yearly sales trends  
 - Category-wise sales distribution  
 - Actual vs Forecasted sales comparison  
-- Interactive filters (Date, Category, Segment, Ship Mode)  
+- Interactive filters (Year, Months)  
 - Business insight cards for decision-making  
 
 ## 🖼 Power BI Dashboard Preview
