@@ -32,10 +32,6 @@ This project combines **time-series forecasting** with **data visualization** to
 
 ## 📊 Dataset Description
 
-### 🔹 Raw Dataset
-- **sales_raw.csv**
-  - Original historical retail transaction data
-
 ### 🔹 Processed Datasets
 - **category_sales.csv**
   - Category  
@@ -71,31 +67,20 @@ These files were generated from the raw dataset during preprocessing and feature
 
 ## 🖼 Power BI Dashboard Preview
 
-### 🔹 Sales Overview
-![Sales Overview](outputs/dashboard_screenshots/overview.png)
-
-### 🔹 Monthly Sales Trend
-![Monthly Sales Trend](outputs/dashboard_screenshots/sales_trend.png)
-
-### 🔹 Sales Forecast vs Actuals
-![Sales Forecast](outputs/dashboard_screenshots/forecast.png)
-
-### 🔹 Category-wise Sales
-![Category-wise Sales](outputs/dashboard_screenshots/category_breakdown.png)
-
+![Dashboard Preview](outputs/dashboard_screenshot/Dashboard.png)
 
 ## ▶️ How to Run This Project
 
 ### 1️⃣ Forecasting (Python)
-- Open `notebooks/sales_forecasting.ipynb`
+- Open `notebooks/ML_1.ipynb`
 - Run all cells to:
   - Clean and aggregate data
   - Train the forecasting model
   - Generate `sales_forecast.csv`
 
 ### 2️⃣ Power BI Dashboard
-- Open `powerbi/Sales_Forecasting_Dashboard.pbix`
-- Load CSV files from `data/processed/`
+- Open `powerbi/MLTask1.pbix`
+- Load CSV files from `data/`
 - Refresh data if required
 
 ## 📌 Key Learnings
